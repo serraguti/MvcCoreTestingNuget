@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <PackageReference Include="JugadoresNugetPGS" Version="2.0.0" />
+    <PackageReference Include="PokemonGOLibrary" Version="2.0.0" />
   </ItemGroup>
 
 </Project>
