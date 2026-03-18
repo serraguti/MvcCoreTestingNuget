@@ -1,0 +1,20 @@
+﻿@model List<Jugador>
+
+<h1>Nuget Jugadores</h1>
+<div class="contenedor">
+    @foreach (Jugador jugador in Model)
+    {
+        <div class="card" style="width:400px">
+            <img class="card-img-top"
+                 src="@jugador.Imagen" alt="Card image">
+            <div class="card-body">
+                <h4 class="card-title">@jugador.Nombre</h4>
+                <p class="card-text">@jugador.Posicion</p>
+                <p class="card-text">Edad: @jugador.Edad</p>
+                <a href="#" class="btn btn-primary">See Profile</a>
+            </div>
+        </div>
+    }
+</div>
+
+
